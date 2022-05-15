@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import Listing from 'pages/Listing';
 import Form from 'pages/Form';
-import NavBar from "components/NavBar";
+import NavBar from '../src/components/NavBar';
+
 
 function App() {
   return (
