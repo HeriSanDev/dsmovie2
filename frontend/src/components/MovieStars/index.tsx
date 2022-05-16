@@ -14,7 +14,7 @@ type StarProps = {
 
 // EX:
 // getFills(3.5) => [1, 1, 1, 0.5, 0]
- getFills(4.1) => [1, 1, 1, 1, 0.5]
+// getFills(4.1) => [1, 1, 1, 1, 0.5]
 function getFills(score: number) {
     const fills = [0, 0, 0, 0, 0];
   
