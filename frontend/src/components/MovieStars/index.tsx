@@ -41,7 +41,7 @@ function Star({ fill }: StarProps){
     }
 }
 
-function MovieStars(){
+function MovieStars({ score } : Props){
     const fills = getFills();
 
     return(
@@ -58,4 +58,3 @@ function MovieStars(){
 export default MovieStars;
 
 
-//{ score } : Props
